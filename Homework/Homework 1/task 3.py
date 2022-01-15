@@ -1,0 +1,17 @@
+cars =  ["Ferrari", "Honda", "Mazda", "Nissan", "Toyota"]
+print(len(cars))
+print(sorted(cars))
+cars.reverse()
+print(cars)
+cars.sort()
+print(cars)
+cars.pop(0)
+print(cars)
+cars.insert(0, "Subaru")
+print(cars)
+cars.append("Lexus")
+print(cars)
+del cars[2]
+print(cars)
+cars.sort()
+print(cars)

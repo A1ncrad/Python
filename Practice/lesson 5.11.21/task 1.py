@@ -1,0 +1,7 @@
+arr = ("USA", "Japan", "German", "Jamaika", 2 , 666, True)
+print(arr)
+print(arr[1], arr[2])
+print(arr[-1])
+print(arr[-2])
+x = arr.index(2)
+print(x)

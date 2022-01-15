@@ -1,0 +1,15 @@
+def city_country(city, country):
+    result = city.title() + ", " + country.title()
+    return result
+input_city = input("Enter any city")
+input_country = input("Enter any country")
+first_pair = city_country(input_city, input_country)
+print(first_pair)
+input_city = input("Enter any city")
+input_country = input("Enter any country")
+second_pair = city_country(input_city, input_country)
+print(second_pair)
+input_city = input("Enter any city")
+input_country = input("Enter any country")
+third_pair = city_country(input_city, input_country)
+print(third_pair)
